@@ -29,6 +29,17 @@ body {
     line-height: 1.6;
     word-break: break-word;
     background: var(--theme);
+    -moz-font-feature-settings: "kern" 1;
+    -ms-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 article,
