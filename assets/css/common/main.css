@@ -22,6 +22,9 @@
     border-radius: calc(36px / 2);
     padding: 0 16px;
 }
+.pagination a:hover {
+    background: var(--link);
+}
 
 .pagination .next {
     margin-inline-start: auto;

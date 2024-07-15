@@ -83,6 +83,10 @@ ul {
 a {
     text-decoration: none;
 }
+a:hover,
+a:active {
+    color: var(--link);
+}
 
 body,
 figure,

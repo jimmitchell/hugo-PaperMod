@@ -59,12 +59,15 @@
 .entry-content {
     margin: 8px 0;
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+}
+.post-entry:hover .entry-header h2 {
+    color: var(--link);
 }
 
 .entry-footer {

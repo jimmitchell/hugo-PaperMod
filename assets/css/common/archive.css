@@ -36,6 +36,9 @@
     margin: 5px 0;
     font-weight: 400;
 }
+.archive-entry:hover .archive-entry-title {
+    color: var(--link);
+}
 
 .archive-count,
 .archive-meta {
