@@ -1,0 +1,24 @@
+.tiny_webring {
+	display: block;
+}
+.tiny_uptime::before {
+	content: " · ";
+}
+.tiny_countries {
+	display: block;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin: 4rem auto 0 auto;
+}
+a.tinylytics_webring {
+	display: inline;
+	line-height: 30px;
+}
+.tinylytics_webring_avatar {
+	border-radius: 50%;
+	width: 24px;
+	height: auto;
+	vertical-align: middle;
+	margin-right: 6px;
+}
