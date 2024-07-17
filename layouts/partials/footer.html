@@ -1,9 +1,10 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    
+    {{- if (site.Params.displayTinylytics) }}
     <span class="tiny_counter">Hits: <span class="tinylytics_hits"></span></span>
     <span class="tiny_uptime">Uptime: <span class="tinylytics_uptime"></span></span>
     <span class="tiny_webring"><a href="" class="tinylytics_webring" title="Tinylytics Webring">Tinylytics Webring</a></span>
+    {{- end }}
     
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
