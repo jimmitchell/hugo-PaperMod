@@ -1,6 +1,6 @@
+/*
 .tiny_webring {
 	display: block;
-	margin-bottom: 20px;
 }
 .tiny_uptime::before {
 	content: " · ";
@@ -8,3 +8,4 @@
 a.tinylytics_webring {
 	display: inline;
 }
+*/
