@@ -4,6 +4,7 @@
 .tiny_uptime::before {
 	content: " · ";
 }
+
 .tiny_countries {
 	display: block;
 	font-size: 2rem;
